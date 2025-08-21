@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Dev News</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header role="banner">
+    <div class="container brand">The Dev News</div>
+  </header>
+
+  <main id="conteudo" class="container">
+
+    <section class="hero" aria-labelledby="titulo-hero">
+
+      <img src="./imagens/artigo1.jpg" alt="" />
+      <div class="overlay" aria-hidden="true"></div>
+      <div class="content">
+        <p class="categoria">opinião</p>
+        <h2 id="titulo-hero">Como é ser um desenvolvedor</h2>
+        <p class="autor"><strong>By</strong> Fabio Tetsuo</p>
+      </div>
+    </section>
+
+
+    <aside aria-label="barra lateral">
+      <section class="widget" aria-labelledby="titulo-populares">
+        <div id="titulo-populares" class="title pill">Posts populares</div>
+        <div class="list">
+          <article class="pop-item">
+            <img src="./imagens/imgASIDE1.jpg" alt="" />
+            <div>
+              <h4>Desenvolvimento atual</h4>
+              <p class="date">22 Agosto 2022</p>
+            </div>
+          </article>
+          <article class="pop-item">
+            <img src="./imagens/imgASIDE2.jpg" alt="" />
+            <div>
+              <h4>GitLab vs GitHub</h4>
+              <p class="date">22 Agosto 2022</p>
+            </div>
+          </article>
+          <article class="pop-item">
+            <img src="./imagens/imgASIDE3.jpg" alt=""/>
+            <div>
+              <h4>Café atrapalha?</h4>
+              <p class="date">22 Agosto 2022</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="widget categories" style="margin-top: var(--gap)" aria-labelledby="titulo-categorias">
+        <div id="titulo-categorias" class="title pill">Categorias</div>
+        <ul>
+          <li><span>saude</span> <span class="count">(1)</span></li>
+          <li><span>desenvolvimento</span> <span class="count">(2)</span></li>
+          <li><span>produtividade</span> <span class="count">(2)</span></li>
+          <li><span>opinião</span> <span class="count">(1)</span></li>
+        </ul>
+      </section>
+    </aside>
+
+
+    <section class="recent" aria-labelledby="titulo-recentes">
+      <div class="section-head pill">
+        <h2 id="titulo-recentes">Posts mais recentes</h2>
+        <a class="more" href="#">Ver todos</a>
+      </div>
+      <div class="posts-grid">
+        <article class="card">
+          <img src="./imagens/celular.jpg" alt="" />
+          <div class="body">
+            <p class="kicker">desenvolvimento</p>
+            <h3>Desenvolvimento mobile</h3>
+            <p class="by"><strong>By</strong> Fabio Tetsuo</p>
+            <p class="excerpt">Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis.</p>
+            <p class="date">22 Agosto 2022</p>
+          </div>
+        </article>
+
+        <article class="card">
+           <img src="./imagens/carregadorCelular.jpg" alt="" />
+          <div class="body">
+            <p class="kicker">saude</p>
+            <h3>Balancear vida profissional e pessoal</h3>
+            <p class="by">By Ridho Satriawan</p>
+            <p class="excerpt">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+            <p class="date">22 Agosto 2022</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./imagens/notebookIMG.jpg" alt="" />
+          <div class="body">
+            <p class="kicker">desenvolvimento</p>
+            <h3>Configurando VSCode</h3>
+            <p class="by">By Fabio Tetsuo</p>
+            <p class="excerpt">Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus.</p>
+            <p class="date">22 Agosto 2022</p>
+          </div>
+        </article>
+
+
+        <article class="card">
+          <img src="./imagens/monitores.jpg" alt="" />
+          <div class="body">
+            <p class="kicker">produtividade</p>
+            <h3>2 monitores ou 1 ultrawide?</h3>
+            <p class="by">By Fulano da Silva</p>
+            <p class="excerpt">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis.</p>
+            <p class="date">22 Agosto 2022</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">Copyright@The Dev News</div>
+  </footer>
+</body>
+</html>
